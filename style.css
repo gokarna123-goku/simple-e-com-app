@@ -59,7 +59,7 @@ a{
 
 
 :root{
-    --bg_color: #f1f1f1;
+    --bg_color: #fefefe;
     --nav_bg: #373737;
     --nav_color: #a3a3a3;
     --primary_color: #1d1d1d;
@@ -210,13 +210,23 @@ nav .active{
 .featured_section{
     width: 100%;
     height: auto;
-    padding: 40px 60px;
+    padding: 60px;
 }
 .featured_section .feature_card{
+    position: relative;
+    width: 100%;
+    height: auto;
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(0, 0, 0, 0.09);
     border-radius: 4px;
     box-shadow: 0 0.5px 20px rgba(0, 0, 0, 0.10);
+    overflow: hidden;
+}
+.featured_section .feature_card .feature_img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
 }
 
 
