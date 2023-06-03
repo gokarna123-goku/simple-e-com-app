@@ -301,7 +301,6 @@ nav .active{
     font-weight: 600;
     color: var(--primary_color);
     letter-spacing: 0.04rem;
-    margin-bottom: 1.6rem;
     transition: 0.5s ease-out;
 }
 .product_data .product_title:hover{
@@ -314,6 +313,27 @@ nav .active{
 .product_data .review{
     font-size: 0.89rem;
     color: var(--secondary_color);
+}
+.product_data .price{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--primary_color);
+    letter-spacing: 0.05rem;
+}
+.product_data .price .discount_price{
+    font-size: 1.09rem;
+    font-weight: 500;
+    color: var(--tertiary_color);
+}
+.product_data .addtocart_btn{
+    height: 38px;
+    background: rgba(0, 0, 0, 0.12);
+    border: 2px solid rgba(0, 0, 0, 0.20);
+    font-size: 1.15rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
