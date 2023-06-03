@@ -66,6 +66,67 @@ a{
     min-height: 100vh;
     background: var(--bg_color);
 }
+nav{
+    width: 100%;
+    height: auto;
+    padding: 20px 60px;
+    background: var(--nav_bg);
+}
+nav .logo{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--secondary_color);
+    letter-spacing: 0.05rem;
+}
+nav .search_box{
+    width: 350px;
+    height: 38px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+}
+nav .search_box input{
+    background: none !important;
+    border: none;
+    outline: none;
+    color: var(--tertiary_color);
+}
+nav .nav-link{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--tertiary_color);
+    letter-spacing: 0.01rem;
+    margin-right: 0.3rem;
+    transition: 0.5s ease-out;
+}
+nav .nav-link:hover{
+    color: var(--secondary_color);
+}
+nav .active{
+    font-weight: 600;
+    color: var(--secondary_color);
+    letter-spacing: 0.02rem;
+}
+.nav-link:focus, .nav-link:active:focus, .nav-link.active:focus{
+    outline:none;
+    box-shadow:none;
+    color: var(--tertiary_color);
+    background: transparent;
+}
+.dropdown-menu{
+    background: var(--nav_bg);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.dropdown-menu .dropdown-item{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--tertiary_color);
+    letter-spacing: 0.01rem;
+    transition: 0.3s ease-out;
+}
+.dropdown-menu .dropdown-item:hover{
+    background: var(--tertiary_color);
+    color: var(--primary_color);
+}
 
 
 /*  */
