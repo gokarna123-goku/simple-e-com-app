@@ -61,10 +61,9 @@ a{
 :root{
     --bg_color: #f1f1f1;
     --nav_bg: #373737;
-    --nav_color: #848484;
+    --nav_color: #a3a3a3;
     --primary_color: #1d1d1d;
     --secondary_color: #fc624d;
-    /* --secondary_color: #0177ff; */
     --tertiary_color: #6f6f6f;
 }
 
@@ -96,7 +95,7 @@ nav .search_box input{
     background: none !important;
     border: none;
     outline: none;
-    color: var(--tertiary_color) !important;
+    color: var(--nav_color) !important;
 }
 nav .search_box .btn_search{
     font-size: 1.1rem;
@@ -105,7 +104,7 @@ nav .search_box .btn_search{
 nav .nav-link{
     font-size: 1.1rem;
     font-weight: 500;
-    color: var(--nav_color);
+    color: var(--nav_color) ;
     letter-spacing: 0.01rem;
     margin-right: 0.3rem;
     transition: 0.5s ease-out;
