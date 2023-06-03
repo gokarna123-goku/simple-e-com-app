@@ -22,11 +22,11 @@
         <!-- Navbar Section -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand me-4 logo" href="#">Logo</a>
+                <a class="btn navbar-brand me-4 logo" href="#">Logo</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa-solid fa-bars text-center"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <form class="d-flex">
@@ -35,7 +35,7 @@
                             <button class="btn btn_search"><i class="fa-solid fa-search"></i></button>
                         </div>
                     </form>
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -71,7 +71,19 @@
                             <a class="nav-link" href="#">Contact us</a>
                         </li>
                     </ul>
-                    
+                    <div class="nav_action d-flex align-items-center">
+                        <!-- User Section -->
+                        <button class="btn btn_account action_btn">
+                            <i class="fa-solid fa-user"></i>
+                        </button>
+                        <!-- Cart Section -->
+                        <a href="#" type="button" class="btn btn_cart action_btn position-relative">
+                            <i class="fa-solid fa-shopping-bag"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                              1
+                            </span>
+                          </a>
+                    </div>
                 </div>
             </div>
         </nav>

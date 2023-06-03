@@ -139,5 +139,29 @@ nav .active{
     color: var(--primary_color);
 }
 
+.nav_action{
+    gap: 0.9rem;
+}
+.nav_action .action_btn{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--nav_color);
+    font-size: 1.1rem;
+    transition: all 0.5s ease-out;
+}
+.nav_action .action_btn:hover{
+    color: var(--secondary_color);
+    background: rgba(255, 255, 255, 0.18);
+}
+.nav_action .btn_cart span{
+    background: var(--secondary_color);
+    color: var(--primary_color);
+}
 
 /*  */
