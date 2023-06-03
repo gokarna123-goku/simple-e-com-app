@@ -250,4 +250,13 @@ nav .active{
 }
 
 
+/* Products Section */
+.product_section{
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+
 /*  */
