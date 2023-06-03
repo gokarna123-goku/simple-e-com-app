@@ -66,7 +66,7 @@ a{
     --secondary_color: #fc624d;
     --tertiary_color: #858585;
     --hero_bg_gradient: linear-gradient(to right, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.68));
-    --card_linear: linear-gradient(to bottom, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10));
+    --card_linear: linear-gradient(to top, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.01));
 }
 
 .main_section{
@@ -212,7 +212,7 @@ nav .active{
     height: auto;
     padding: 60px;
 }
-.featured_section .feature_card{
+.feature_card{
     position: relative;
     width: 100%;
     height: auto;
@@ -221,12 +221,32 @@ nav .active{
     border-radius: 4px;
     box-shadow: 0 0.5px 20px rgba(0, 0, 0, 0.10);
     overflow: hidden;
+    transition: transform 0.5s ease-out;
 }
-.featured_section .feature_card .feature_img{
+.feature_img{
     width: 100%;
     height: 40vh;
     object-fit: cover;
     object-position: center;
+    transition: transform 0.5s ease-out;
+}
+.feature_card:hover .feature_img{
+    transform: skew(-4deg) scale(1.2);
+}
+.feature_data{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.45);
+}
+.feature_data .feature_title{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--bg_color);
+    letter-spacing: 0.1rem;
 }
 
 
