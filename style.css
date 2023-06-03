@@ -66,6 +66,7 @@ a{
     --secondary_color: #fc624d;
     --tertiary_color: #858585;
     --hero_bg_gradient: linear-gradient(to right, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.68));
+    --card_linear: linear-gradient(to bottom, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.10));
 }
 
 .main_section{
@@ -204,10 +205,19 @@ nav .active{
     font-weight: 500;
 }
 
-.hello{
-    color: var(--secondary_color);
-}
 
+/* Featured Section */
+.featured_section{
+    width: 100%;
+    height: auto;
+    padding: 40px 60px;
+}
+.featured_section .feature_card{
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    border-radius: 4px;
+    box-shadow: 0 0.5px 20px rgba(0, 0, 0, 0.10);
+}
 
 
 /*  */
