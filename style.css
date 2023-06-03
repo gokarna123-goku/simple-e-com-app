@@ -55,22 +55,16 @@ a{
 
 :root{
     --bg_color: #f1f1f1;
-    --nav_bg: #313131;
+    --nav_bg: #373737;
     --primary_color: #1d1d1d;
-    /* --secondary_color: #E1580F; */
     --secondary_color: #FF6600;
-    /* --secondary_color: #FF6600; */
-    --tertiary_color: #b8b8b8;
-    --fourth_color: #6f6f6f;
-    --hero_bg_gradient: linear-gradient(to right, rgba(0, 0, 0, 0.80),  rgba(0, 0, 0, 0.70),  rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.20),  rgba(0, 0, 0, 0.10));
-    --table_bg_gradient: linear-gradient(to right, rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.60),  rgba(0, 0, 0, 0.50));
+    --tertiary_color: #6f6f6f;
 }
 
 .main_section{
     width: 100%;
     min-height: 100vh;
     background: var(--bg_color);
-    /* overflow: hidden; */
 }
 
 
