@@ -103,24 +103,73 @@
 
         <!-- Add to cart Products list -->
         <div class="cart_product_section">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class=" cart_box">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <!--  -->
+                        <thead>
+                            <tr class="heading">
+                                <th scope="col" class="border-0">
+                                    <div class="p-2 px-3">#</div>
+                                </th>
+                                <th scope="col" class="border-0 text-center">
+                                    <div class="py-2">Product Image</div>
+                                </th>
+                                <th scope="col" class="border-0 text-center">
+                                    <div class="py-2">Product Name</div>
+                                </th>
+                                <th scope="col" class="border-0 text-center">
+                                    <div class="py-2">Price</div>
+                                </th>
+                                <th scope="col" class="border-0 text-center">
+                                    <div class="py-2">Quantity</div>
+                                </th>
+                                <th scope="col" class="border-0 text-center">
+                                    <div class="py-2">Sub Total</div>
+                                </th>
+                                <th scope="col" class="border-0 text-center">
+                                    <div class="py-2">Action</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <!--  -->
+                        <tbody>
+                            <tr>
+                                <th class="align-middle text-center">1</th>
+                                <td scope="row">
+                                    <div class="p-2 align-middle text-center">
+                                        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
+                                            alt=" Cart Image" class="img-fluid cart_img">
+                                    </div>
+                                </td>
+                                <td class="align-middle text-center">Denim T-Shirt</td>
+                                <td class="align-middle text-center">Rs. 1500</td>
+                                <td class="align-middle text-center">2</td>
+                                <td class="align-middle text-center">Rs. 3000</td>
+                                <td class="align-middle text-center justify-content-center">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-sm increment-btn me-2">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                        <button class="btn btn-sm decrement-btn me-2">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="btn btn-sm decrement-btn">
+                                            <i class="fa-solid fa-close fs-5"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="6" class="text-end pe-3">Total</th>
+                                <th colspan="1" class="text-center">Rs. </th>
+                            </tr>
+                            <!--  -->
+                        </tbody>
+                        <!--  -->
+                    </table>
+                </div>
+            </div>
         </div>
 
         <!-- Footer Section -->
