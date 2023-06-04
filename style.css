@@ -451,6 +451,12 @@ footer .footer_title{
 /* ====================== Next Page (file Started) ====================== */
 
 /* Detail Section */
-
+.bradcrumb_section{
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.18);
+    /* background: rgba(0, 0, 0, 0.03); */
+    /* background: rgba(255, 255, 255, 0.5); */
+}
 
 /*  */
