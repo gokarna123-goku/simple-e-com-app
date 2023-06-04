@@ -458,5 +458,13 @@ footer .footer_title{
     /* background: rgba(0, 0, 0, 0.03); */
     /* background: rgba(255, 255, 255, 0.5); */
 }
+.bradcrumb_section .breadcrumb-item a{
+    font-size: 1.0rem;
+    color: var(--secondary_color);
+    font-weight: 600;
+}
+.bradcrumb_section .active{
+    color: var(--tertiary_color);
+}
 
 /*  */
