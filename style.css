@@ -423,6 +423,20 @@ footer .footer_title{
     max-width: 70px;
     height: 50px;
 }
+.copy_section{
+    font-size: 0.99rem;
+    color: rgba(255, 255, 255, 0.20);
+    letter-spacing: 0.04rem;
+}
+.developer_section{
+    font-size: 0.99rem;
+    color: rgba(255, 255, 255, 0.20);
+    letter-spacing: 0.04rem;
+}
+.developer_section a{
+    color: var(--secondary_color);
+    font-weight: 600;
+}
 
 
 /*  */
