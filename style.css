@@ -476,5 +476,25 @@ footer .footer_title{
     height: auto;
     padding: 20px 100px;
 }
+.detail_img_box{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.product_detail_img{
+    width: 100%;
+    max-height: 60vh;
+    object-fit: contain;
+    border-radius: 4px;
+}
+.detail_offer{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--secondary_color);
+    border-radius: 4px;
+    font-size: 0.89rem;
+    color: var(--primary_color);
+}
 
 /*  */
