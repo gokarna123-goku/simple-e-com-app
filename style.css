@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -265,6 +266,17 @@ nav .active{
     height: auto;
     padding: 60px 100px;
     background: rgba(0, 0, 0, 0.03);
+}
+.product_section .explore_more_btn{
+    font-size: 1.1rem;
+    color: var(--secondary_color);
+    font-weight: 500;
+}
+.box_title{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--primary_color);
+    letter-spacing: 0.03rem;
 }
 
 .product_section .product_card{
@@ -582,6 +594,26 @@ footer .footer_title{
     font-size: 1.2rem;
     font-weight: 500;
     color: var(--primary_color);
+}
+.review_rating .rating_section{
+    font-size: 0.87rem;
+    color: #f9b032;
+}
+.review_rating .vr_line{
+    width: 1.5px;
+    height: 15px;
+    background: var(--tertiary_color);
+}
+.review_rating .review{
+    font-size: 1.0rem;
+    color: var(--secondary_color);
+    font-weight: 500;
+}
+.detail_section .product_section{
+    width: 100%;
+    height: auto;
+    padding: 60px 30px;
+    background: rgba(0, 0, 0, 0.01);
 }
 
 
