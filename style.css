@@ -722,7 +722,6 @@ footer .footer_title{
     .product_section {
         padding: 40px 20px;
     }
-    
     .detail_section {
         padding: 20px;
     }
@@ -733,10 +732,10 @@ footer .footer_title{
         width: 100%;
     }
     .coupon_box input {
-        width: 65%;
+        width: 60%;
     }
     .btn_coupon {
-        width: 35%;
+        width: 40%;
     }
 }
 
