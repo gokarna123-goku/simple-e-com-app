@@ -360,6 +360,17 @@ footer{
     padding: 20px 60px;
     background: var(--primary_color);
 }
+footer .logo{
+    font-size: 2.7rem;
+    font-weight: bolder;
+    color: var(--secondary_color);
+    letter-spacing: 0.1rem;
+}
+footer .desc{
+    font-size: 0.99rem;
+    color: var(--tertiary_color);
+    font-weight: 500;
+}
 
 
 /*  */
