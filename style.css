@@ -392,6 +392,21 @@ footer .desc{
 .social_box:hover{
     color: var(--secondary_color);
 }
+footer .footer_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--nav_color);
+    letter-spacing: 0.07rem;
+}
+.link_section{
+    width: 100%;
+    height: auto;
+}
+.link_section .link{
+    color: var(--tertiary_color);
+    font-size: 1.05rem;
+    font-weight: 500;
+}
 
 
 /*  */
