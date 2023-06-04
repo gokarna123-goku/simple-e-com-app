@@ -129,10 +129,12 @@ nav .active{
     color: var(--secondary_color);
     letter-spacing: 0.02rem;
 }
-.nav-link:focus, .nav-link:active:focus, .nav-link.active:focus{
+.nav-link:focus, 
+.nav-link:active:focus, 
+.nav-link.active:focus{
     outline:none;
     box-shadow:none;
-    color: var(--nav_color);
+    color: var(--secondary_color);
     background: transparent;
 }
 .dropdown-menu{
@@ -665,6 +667,15 @@ footer .footer_title{
     font-size: 1.1rem;
     font-weight: 500;
     color: var(--primary_color);
+}
+.btn_continue{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--secondary_color);
+    letter-spacing: 0.02rem;
+}
+.btn_continue:hover{
+    color: var(--secondary_color);
 }
 
 
