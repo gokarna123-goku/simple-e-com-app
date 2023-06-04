@@ -357,7 +357,7 @@ nav .active{
 footer{
     width: 100%;
     height: auto;
-    padding: 20px 60px;
+    padding: 60px;
     background: var(--primary_color);
 }
 footer .logo{
