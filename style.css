@@ -616,5 +616,14 @@ footer .footer_title{
     background: rgba(0, 0, 0, 0.01);
 }
 
+/* ====================== Next Page (file Started) ====================== */
+
+/* Add To Cart Section */
+.cart_product_section{
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
+}
+
 
 /*  */
