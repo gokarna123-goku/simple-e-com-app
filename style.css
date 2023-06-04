@@ -506,6 +506,22 @@ footer .footer_title{
     color: var(--primary_color);
     letter-spacing: 0.04rem;
 }
+.price_section{
+    width: 100%;
+    height: auto;
+}
+.price_section .seeling_price{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--primary_color);
+    letter-spacing: 0.04rem;
+}
+.price_section .discount_price{
+    font-size: 1.0rem;
+    font-weight: 450;
+    color: var(--tertiary_color);
+    letter-spacing: 0.04rem;
+}
 
 
 
