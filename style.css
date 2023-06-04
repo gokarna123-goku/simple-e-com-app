@@ -526,6 +526,40 @@ footer .footer_title{
     font-size: 0.99rem;
     color: var(--tertiary_color);
 }
+.qty_title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary_color);
+}
+.quantity_section{
+    column-gap: 1rem;
+}
+.qty_box{
+    height: 40px;
+    /* background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.18); */
+    border-radius: 4px;
+    /* column-gap: 0.7rem; */
+    overflow: hidden;
+}
+.qty_btn{
+    height: 100%;
+    background: var(--secondary_color);
+    border: 1px solid var(--secondary_color);
+    border-radius: 0 !important;
+}
+.qty_count{
+    height: 100%;
+    width: 100%;
+    font-size: 1.1rem;
+    color: var(--primary_color);
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+    background: rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
