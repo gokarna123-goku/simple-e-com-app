@@ -496,5 +496,17 @@ footer .footer_title{
     font-size: 0.89rem;
     color: var(--primary_color);
 }
+.product_detail_data{
+    width: 100%;
+    height: auto;
+}
+.product_detail_data .product_title{
+    font-size: 2.0rem;
+    font-weight: 500;
+    color: var(--primary_color);
+    letter-spacing: 0.04rem;
+}
+
+
 
 /*  */
