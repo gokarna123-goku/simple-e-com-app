@@ -688,6 +688,9 @@ footer .footer_title{
     .product_section {
         padding: 60px 40px;
     }
+    .detail_section {
+        padding: 20px 40px;
+    }
     .cart_product_section {
         padding: 60px 40px;
     }
@@ -701,5 +704,42 @@ footer .footer_title{
         width: 35%;
     }
 }
+
+@media screen and ( max-width:768px ) {
+    nav{
+        padding: 20px;
+    }
+    nav.fixed{
+        padding: 5px 20px;
+    }
+    .hero_section .hero_title {
+        font-size: 2.7rem;
+        line-height: 3.3rem;
+    }
+    .featured_section {
+        padding: 40px 20px;
+    }
+    .product_section {
+        padding: 40px 20px;
+    }
+    
+    .detail_section {
+        padding: 20px;
+    }
+    .cart_product_section {
+        padding: 40px 20px;
+    }
+    .coupon_box {
+        width: 100%;
+    }
+    .coupon_box input {
+        width: 65%;
+    }
+    .btn_coupon {
+        width: 35%;
+    }
+}
+
+
 
 /*  */
