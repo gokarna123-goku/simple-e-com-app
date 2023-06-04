@@ -406,6 +406,10 @@ footer .footer_title{
     color: var(--tertiary_color);
     font-size: 1.05rem;
     font-weight: 500;
+    transition: 0.5s ease-out;
+}
+.link_section .link:hover{
+    color: var(--secondary_color);
 }
 
 
