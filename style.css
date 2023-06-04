@@ -371,6 +371,16 @@ footer .desc{
     color: var(--tertiary_color);
     font-weight: 500;
 }
+.store_detail{
+    font-size: 0.94rem;
+    color: var(--tertiary_color);
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    transition: 0.5s ease-out;
+}
+.store_detail:hover{
+    color: rgba(255, 255, 255, 0.25);
+}
 .store_social_section{
     width: 100%;
     height: auto;
