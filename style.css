@@ -522,6 +522,10 @@ footer .footer_title{
     color: var(--tertiary_color);
     letter-spacing: 0.04rem;
 }
+.price_section .desc{
+    font-size: 0.99rem;
+    color: var(--tertiary_color);
+}
 
 
 
