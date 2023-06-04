@@ -635,17 +635,36 @@ footer .footer_title{
     object-fit: contain;
 }
 .coupon_box{
-    width: 100%;
+    width: 90%;
     height: 42px;
     background: rgba(0, 0, 0, 0.05);
     border-radius: 4px;
+    overflow: hidden;
 }
 .coupon_box input{
     width: 70%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.05);
-    outline: none;
+    background: none !important;
     border: none;
+    outline: none;
+    color: var(--primary_color) !important;
+}
+.btn_coupon{
+    width: 30%;
+    height: 100%;
+    border-radius: 0;
+    background: var(--secondary_color);
+    border: 2px solid var(--secondary_color);
+}
+.btn_checkout{
+    width: 100%;
+    height: 40px;
+    background: var(--secondary_color);
+    border: 2px solid var(--secondary_color);
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary_color);
 }
 
 
