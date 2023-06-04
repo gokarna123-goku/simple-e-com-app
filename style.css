@@ -353,5 +353,13 @@ nav .active{
     justify-content: center;
 }
 
+/* Footer Section */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 20px 60px;
+    background: var(--primary_color);
+}
+
 
 /*  */
