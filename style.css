@@ -454,17 +454,27 @@ footer .footer_title{
 .bradcrumb_section{
     width: 100%;
     height: auto;
-    background: rgba(255, 255, 255, 0.18);
-    /* background: rgba(0, 0, 0, 0.03); */
-    /* background: rgba(255, 255, 255, 0.5); */
+    background: #c3c3c32e;
+    /* background: rgba(203, 203, 203, 0.18); */
+    padding: 20px 60px;
 }
 .bradcrumb_section .breadcrumb-item a{
     font-size: 1.0rem;
-    color: var(--secondary_color);
+    color: var(--tertiary_color);
     font-weight: 600;
+    transition: 0.5s ease-out;
+}
+.bradcrumb_section .breadcrumb-item a:hover{
+    color: var(--secondary_color);
 }
 .bradcrumb_section .active{
     color: var(--tertiary_color);
+}
+
+.detail_section{
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
 }
 
 /*  */
