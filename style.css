@@ -411,6 +411,18 @@ footer .footer_title{
 .link_section .link:hover{
     color: var(--secondary_color);
 }
+.paymentt_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.payment img{
+    max-width: 70px;
+    height: 50px;
+}
 
 
 /*  */
