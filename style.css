@@ -371,6 +371,27 @@ footer .desc{
     color: var(--tertiary_color);
     font-weight: 500;
 }
+.store_social_section{
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+}
+.social_box{
+    width: 33px;
+    height: 33px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--secondary_color);
+    background: rgba(252, 98, 77, 0.05);
+    font-size: 1.2rem;
+    color: var(--tertiary_color);
+    transition: 0.5s ease-out;
+}
+.social_box:hover{
+    color: var(--secondary_color);
+}
 
 
 /*  */
