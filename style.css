@@ -560,7 +560,29 @@ footer .footer_title{
     align-items: center;
     justify-content: center;
 }
+.cart_save_section{
+    column-gap: 1.5rem;
+}
 
+.cart_save_section .btn_cart{
+    height: 38px;
+    background: var(--secondary_color);
+    border: 2px solid var(--secondary_color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary_color);
+}
+
+.cart_save_section .btn_save{
+    width: 40px;
+    height: 38px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid var(--tertiary_color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary_color);
+}
 
 
 /*  */
