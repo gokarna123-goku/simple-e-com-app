@@ -679,4 +679,27 @@ footer .footer_title{
 }
 
 
+
+/* For Responsive */
+@media screen and ( max-width:768px ) {
+    .featured_section {
+        padding: 60px 40px;
+    }
+    .product_section {
+        padding: 60px 40px;
+    }
+    .cart_product_section {
+        padding: 60px 40px;
+    }
+    .coupon_box {
+        width: 100%;
+    }
+    .coupon_box input {
+        width: 65%;
+    }
+    .btn_coupon {
+        width: 35%;
+    }
+}
+
 /*  */
