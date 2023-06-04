@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Cdn link -->
+    <script src="https://kit.fontawesome.com/676eaf438a.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Custom Css link -->
+    <link rel="stylesheet" href="style.css">
+    <title>E-Commerce Website</title>
+</head>
+
+<body>
+
+    <!-- Main Section -->
+    <div class="main_section">
+        <!-- Navbar Section -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand me-4 logo" href="index.html">Logo</a>
+                <button class="btn navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars text-light"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex">
+                        <div class="search_box d-flex align-items-center">
+                            <input class="form-control me-2" placeholder="Search products...">
+                            <button class="btn btn_search"><i class="fa-solid fa-search"></i></button>
+                        </div>
+                    </form>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Men</a></li>
+                                <li><a class="dropdown-item" href="#">Women</a></li>
+                                <li><a class="dropdown-item" href="#">Shoes</a></li>
+                                <li><a class="dropdown-item" href="#">Bags</a></li>
+                                <li><a class="dropdown-item" href="#">Appliances</a></li>
+                                <li><a class="dropdown-item" href="#">Gadgets</a></li>
+                                <li><a class="dropdown-item" href="#">electronics</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">SToday's Best Deals</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="nav_action d-flex align-items-center">
+                        <!-- User Section -->
+                        <button class="btn btn_account action_btn">
+                            <i class="fa-solid fa-user"></i>
+                        </button>
+                        <!-- User Section -->
+                        <a href="#" class="btn btn_save action_btn">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                        <!-- Cart Section -->
+                        <a href="add_to_cart.html" type="button" class="btn btn_cart action_btn position-relative">
+                            <i class="fa-solid fa-shopping-bag"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
+                                1
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Breadcrumb -->
+        <nav class="bradcrumb_section" aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Add to Cart</li>
+            </ol>
+        </nav>
+
+        <!-- Footer Section -->
+        <footer class="footer_section">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="p-2">
+                        <a href="index.html" class="logo">Logo</a>
+                        <p class="desc mt-1 mb-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, debitis maiores.
+                            Totam, qui ratione commodi dignissimos laboriosam reprehenderit corrupti nesciunt.
+                        </p>
+                        <a href="#" class="store_detail d-flex align-items-center mb-2">
+                            <i class="fa-solid fa-phone me-2"></i>
+                            <p class="mb-0">+977-9898989898</p>
+                        </a>
+                        <a href="#" class="store_detail d-flex align-items-center mb-2">
+                            <i class="fa-solid fa-envelope me-2"></i>
+                            <p class="mb-0">support@gmail.com</p>
+                        </a>
+                        <a class="store_detail d-flex align-items-center mb-4">
+                            <i class="fa-solid fa-map-marker me-2"></i>
+                            <p class="mb-0">Tamrakar, NewRoad Kathmandu</p>
+                        </a>
+                        <div class="store_social_section d-flex align-items-center">
+                            <a href="#" class="social_box"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="social_box"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social_box"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="social_box"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="p-2">
+                        <h3 class="footer_title mb-3">About us</h3>
+                        <div class="link_section d-flex align-items-start flex-column">
+                            <a href="#" class="link mb-1">About us</a>
+                            <a href="#" class="link mb-1">Store Location</a>
+                            <a href="#" class="link mb-1">Contact Detail</a>
+                            <a href="#" class="link mb-1">Order Tracking</a>
+                            <a href="#" class="link mb-1">Return Policy</a>
+                            <a href="#" class="link mb-1">Support Policy</a>
+                            <a href="#" class="link mb-1">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="p-2">
+                        <h3 class="footer_title mb-3">Top Brands</h3>
+                        <div class="link_section d-flex align-items-start flex-column">
+                            <a href="#" class="link mb-1">New Adidas</a>
+                            <a href="#" class="link mb-1">Puma Collection</a>
+                            <a href="#" class="link mb-1">Nike Collection</a>
+                            <a href="#" class="link mb-1">Denim Products</a>
+                            <a href="#" class="link mb-1">New Balance</a>
+                            <a href="#" class="link mb-1">Gucci Products</a>
+                            <a href="#" class="link mb-1">Gold Star Shoes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="p-2">
+                        <h3 class="footer_title mb-3">Accessories</h3>
+                        <div class="link_section d-flex align-items-start flex-column">
+                            <a href="#" class="link mb-1">Branded t-shirt</a>
+                            <a href="#" class="link mb-1">Jeans pants</a>
+                            <a href="#" class="link mb-1">Summer collection</a>
+                            <a href="#" class="link mb-1">Nike shoes</a>
+                            <a href="#" class="link mb-1">Sports collection</a>
+                            <a href="#" class="link mb-1">Jocker pants</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h3 class="footer_title mb-3">We Accept</h3>
+                    <div class="p-2 paymentt_section">
+                        <a href="#" class="payment">
+                            <img src="./img/visa.png" alt="Payment Gateway Image" class="payment_img img-fluid">
+                        </a>
+                        <a href="#" class="payment">
+                            <img src="./img/paypal.png" alt="Payment Gateway Image" class="payment_img img-fluid">
+                        </a>
+                        <a href="#" class="payment">
+                            <img src="./img/card.png" alt="Payment Gateway Image" class="payment_img img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <hr class="my-4 bg-secondary">
+                <div class="col-lg-12">
+                    <div class="p-2 d-flex align-items-center justify-content-between">
+                        <p class="copy_section mb-0">
+                            Copyright &copy; 2023. All rights reserved!
+                        </p>
+                        <p class="developer_section mb-0">
+                            Developed and Designed By <a href="#">Goku</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Custom JavaScript link -->
+    <script src="main.js"></script>
+
+    <!-- Bootstrap Bundle with Popper JavaScript Cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
