@@ -690,7 +690,7 @@ footer .footer_title{
 .shop_section{
     width: 100%;
     height: auto;
-    padding: 60px 100px;
+    padding: 60px;
 }
 .filter_box{
     background: rgba(255, 255, 255, 0.03);
@@ -716,7 +716,7 @@ footer .footer_title{
     align-items: center;
     justify-content: center;
 }
-.product_sort{
+.shop_sort{
     background: rgba(0, 0, 0, 0.07);
     font-size: 0.89rem;
     font-weight: 550;
