@@ -748,6 +748,14 @@ footer .footer_title{
 .shop_data .shop_title:hover{
     color: var(--secondary_color);
 }
+.shop_data .rating{
+    font-size: 0.80rem;
+    color: #f9b032;
+}
+.shop_data .review{
+    font-size: 0.90rem;
+    color: var(--secondary_color);
+}
 
 
 
