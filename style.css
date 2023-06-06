@@ -685,6 +685,14 @@ footer .footer_title{
     height: auto;
     padding: 60px 100px;
 }
+.filter_box{
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.filter_title{
+    background: rgba(0, 0, 0, 0.07);
+}
 
 
 
