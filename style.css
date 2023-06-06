@@ -690,7 +690,7 @@ footer .footer_title{
 .shop_section{
     width: 100%;
     height: auto;
-    padding: 60px;
+    padding: 60px 40px;
 }
 .filter_box{
     background: rgba(255, 255, 255, 0.03);
@@ -722,6 +722,9 @@ footer .footer_title{
     font-weight: 550;
     color: var(--tertiary_color);
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .shop_card{
     background: rgba(0, 0, 0, 0.01);
