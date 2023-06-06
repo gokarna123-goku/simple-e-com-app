@@ -35,6 +35,13 @@ a{
     box-shadow: none;
 }
 
+.form-check:focus, 
+.form-check:active:focus, 
+.form-check.active:focus{
+    outline: none;
+    box-shadow: none;
+}
+
 
 /* Custom Scrollbar Section Start Here */
 /* width */
