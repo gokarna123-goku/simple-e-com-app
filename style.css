@@ -756,6 +756,28 @@ footer .footer_title{
     font-size: 0.90rem;
     color: var(--secondary_color);
 }
+.shop_data .price{
+    font-size: 1.25rem;
+    font-weight: 550;
+    color: var(--primary_color);
+    letter-spacing: 0.05rem;
+}
+.shop_data .price .discount_price{
+    font-size: 0.90rem;
+    font-weight: 500;
+    color: var(--tertiary_color);
+}
+.shop_data .addtocart_btn{
+    height: 38px;
+    background: rgba(0, 0, 0, 0.12);
+    border: 2px solid rgba(0, 0, 0, 0.20);
+    font-size: 1.15rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
