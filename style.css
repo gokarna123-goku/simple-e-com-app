@@ -692,9 +692,10 @@ footer .footer_title{
 }
 .filter_title{
     background: rgba(0, 0, 0, 0.07);
-    font-size: 1.1rem;
+    font-size: 0.89rem;
     font-weight: 550;
     color: var(--tertiary_color);
+    text-transform: uppercase;
 }
 .btn_apply_filter{
     width: 100%;
