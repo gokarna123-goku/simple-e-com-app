@@ -679,6 +679,14 @@ footer .footer_title{
 }
 
 
+/* Shop Section */
+.shop_section{
+    width: 100%;
+    height: auto;
+    padding: 60px 100px;
+}
+
+
 
 /* For Responsive */
 @media screen and ( max-width:768px ) {
