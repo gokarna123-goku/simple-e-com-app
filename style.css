@@ -716,6 +716,13 @@ footer .footer_title{
     align-items: center;
     justify-content: center;
 }
+.product_sort{
+    background: rgba(0, 0, 0, 0.07);
+    font-size: 0.89rem;
+    font-weight: 550;
+    color: var(--tertiary_color);
+    text-transform: uppercase;
+}
 
 
 
