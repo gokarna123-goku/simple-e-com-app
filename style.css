@@ -89,7 +89,7 @@ nav{
     background: var(--nav_bg);
 }
 nav.fixed{
-    position: fixed;
+    position: fixed; 
     width: 100%;
     height: auto;
     padding: 4px 60px;
