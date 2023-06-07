@@ -73,8 +73,8 @@ a{
     --primary_color: #1d1d1d;
     --secondary_color: #fc624d;
     --tertiary_color: #858585;
-    --hero_bg_gradient: linear-gradient(to right, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.68));
-    --card_linear: linear-gradient(to top, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.01));
+    --hero_bg_gradient: linear-gradient(to right, rgba(0, 0, 0, 0.70),
+     rgba(0, 0, 0, 0.68));
 }
 
 .main_section{
