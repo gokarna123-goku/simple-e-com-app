@@ -570,6 +570,9 @@ footer .footer_title{
     border-radius: 0 !important;
     color: var(--bg_color);
 }
+.qty_btn:hover{
+    color: var(--bg_color);
+}
 .qty_count{
     height: 100%;
     width: 100%;
