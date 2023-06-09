@@ -577,7 +577,9 @@ footer .footer_title{
     color: var(--primary_color);
     font-weight: 500;
     letter-spacing: 0.01rem;
-    background: rgba(0, 0, 0, 0.12);
+    background: rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -592,7 +594,7 @@ footer .footer_title{
     border: 2px solid var(--secondary_color);
     font-size: 1.1rem;
     font-weight: 500;
-    color: var(--primary_color);
+    color: var(--bg_color);
 }
 
 .cart_save_section .btn_save{
