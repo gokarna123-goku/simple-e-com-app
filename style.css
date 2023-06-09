@@ -568,6 +568,7 @@ footer .footer_title{
     background: var(--secondary_color);
     border: 1px solid var(--secondary_color);
     border-radius: 0 !important;
+    color: var(--bg_color);
 }
 .qty_count{
     height: 100%;
