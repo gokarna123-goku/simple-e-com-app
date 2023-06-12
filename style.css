@@ -637,7 +637,7 @@ footer .footer_title{
 .cart_product_section{
     width: 100%;
     height: auto;
-    padding: 60px 100px;
+    padding: 60px;
 }
 .heading{
     width: 100%;
@@ -645,8 +645,8 @@ footer .footer_title{
     background: rgba(0, 0, 0, 0.09);
 }
 .cart_box .cart_img{
-    width: 80px;
-    height: 100px;
+    width: 50px;
+    height: 60px;
     object-fit: contain;
 }
 .coupon_box{
