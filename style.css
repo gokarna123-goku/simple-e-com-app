@@ -637,7 +637,7 @@ footer .footer_title{
 .cart_product_section{
     width: 100%;
     height: auto;
-    padding: 60px;
+    padding: 60px 100px;
 }
 .heading{
     width: 100%;
@@ -650,14 +650,14 @@ footer .footer_title{
     object-fit: contain;
 }
 .coupon_box{
-    width: 90%;
+    width: 100%;
     height: 42px;
     background: rgba(0, 0, 0, 0.05);
     border-radius: 4px;
     overflow: hidden;
 }
 .coupon_box input{
-    width: 70%;
+    width: 75%;
     height: 100%;
     background: none !important;
     border: none;
@@ -665,7 +665,7 @@ footer .footer_title{
     color: var(--primary_color) !important;
 }
 .btn_coupon{
-    width: 30%;
+    width: 25%;
     height: 100%;
     border-radius: 0;
     background: var(--secondary_color);
