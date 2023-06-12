@@ -670,16 +670,22 @@ footer .footer_title{
     border-radius: 0;
     background: var(--secondary_color);
     border: 2px solid var(--secondary_color);
+    color: var(--bg_color);
+}
+.btn_coupon:hover{
+    color: var(--bg_color);
 }
 .btn_checkout{
-    width: 100%;
-    height: 40px;
+    height: 38px;
     background: var(--secondary_color);
     border: 2px solid var(--secondary_color);
     border-radius: 4px;
     font-size: 1.1rem;
     font-weight: 500;
-    color: var(--primary_color);
+    color: var(--bg_color);
+}
+.btn_checkout:hover{
+    color: var(--bg_color);
 }
 .btn_continue{
     font-size: 1.1rem;
