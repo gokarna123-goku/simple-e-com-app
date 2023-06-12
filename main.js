@@ -16,25 +16,27 @@ window.addEventListener("scroll", function () {
 // Get references to the elements
 const decrementBtn = document.getElementById("btnDecrement");
 const incrementBtn = document.getElementById("btnIncrement");
-const counterInput = document.getElementById("counter");
-
+const counterDisplay = document.getElementById("counterDisplay");
 // Set initial counter value
 let counter = 0;
-counterInput.value = counter;
+counterDisplay.textContent = counter;
 
 // Decrement button click event
 decrementBtn.addEventListener("click", () => {
     if (counter > 0) {
         counter--;
-        counterInput.value = counter;
+        counterDisplay.textContent = counter;
     }
 });
 
 // Increment button click event
 incrementBtn.addEventListener("click", () => {
-    counter++;
-    counterInput.value = counter;
+    if (counter < 5) {
+        counter++;
+        counterDisplay.textContent = counter;
+    } else {
+        alert("Maximum limit reached.");
+    }
 });
-
 
 // END
